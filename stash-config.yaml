@@ -111,18 +111,18 @@ proxy-groups:
     interval: 3600
     lazy: true
     include-all: true
-    icon: https://raw.githubusercontent.com/Yuanxsxs/QtumultX/master/Icon/JiuMei-icon/quanX/BiliBili.png
+    icon: https://raw.githubusercontent.com/Looksbsb/Private_stash_config/main/icon/Moon.png
 
   - name: 电报吹水
     type: select
     include-all: true
-    icon: https://raw.githubusercontent.com/Yuanxsxs/QtumultX/master/Icon/JiuMei-icon/quanX/Telegram.png
+    icon: https://raw.githubusercontent.com/Looksbsb/Private_stash_config/main/icon/Telegram.png
 
   - name: 国外流量
     type: select
     include-all: true
     filter: 美國|美国|日本|US|JP
-    icon: https://raw.githubusercontent.com/Yuanxsxs/QtumultX/master/Icon/JiuMei-icon/quanX/Gwwz.png
+    icon: https://raw.githubusercontent.com/Looksbsb/Private_stash_config/main/icon/World.png
 
 rules: 
   - DOMAIN-SUFFIX,app-measurement.com,REJECT,no-track
