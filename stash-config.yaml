@@ -98,10 +98,7 @@ dns:
 
 proxies:
 
-proxy-providers: 
-  Airport:
-    url: #机场订阅链接（clash格式）
-    interval: 86400
+proxy-providers:
 
 proxy-groups:
   - name: 最终代理
