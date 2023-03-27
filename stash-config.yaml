@@ -1585,8 +1585,6 @@ rules:
   - DOMAIN-KEYWORD,gmail,国外流量
   - DOMAIN-KEYWORD,google,国外流量
   - DOMAIN-KEYWORD,youtube,国外流量
-  - IP-CIDR,74.125.0.0/16,国外流量,no-resolve
-  - IP-CIDR,173.194.0.0/16,国外流量,no-resolve
   # 内容：Instagram
   - DOMAIN-SUFFIX,cdninstagram.com,国外流量
   - DOMAIN-SUFFIX,instagr.am,国外流量
@@ -1600,20 +1598,6 @@ rules:
   - DOMAIN-SUFFIX,fbcdn.com,国外流量
   - DOMAIN-SUFFIX,fbcdn.net,国外流量
   - DOMAIN-KEYWORD,facebook,国外流量
-  - IP-CIDR,31.13.24.0/21,国外流量,no-resolve
-  - IP-CIDR,31.13.64.0/18,国外流量,no-resolve
-  - IP-CIDR,45.64.40.0/22,国外流量,no-resolve
-  - IP-CIDR,66.220.144.0/20,国外流量,no-resolve
-  - IP-CIDR,69.63.176.0/20,国外流量,no-resolve
-  - IP-CIDR,69.171.224.0/19,国外流量,no-resolve
-  - IP-CIDR,74.119.76.0/22,国外流量,no-resolve
-  - IP-CIDR,103.4.96.0/22,国外流量,no-resolve
-  - IP-CIDR,129.134.0.0/17,国外流量,no-resolve
-  - IP-CIDR,157.240.0.0/17,国外流量,no-resolve
-  - IP-CIDR,173.252.64.0/18,国外流量,no-resolve
-  - IP-CIDR,179.60.192.0/22,国外流量,no-resolve
-  - IP-CIDR,185.60.216.0/22,国外流量,no-resolve
-  - IP-CIDR,204.15.20.0/22,国外流量,no-resolve
   # 内容：Twitter
   - DOMAIN-SUFFIX,periscope.tv,国外流量
   - DOMAIN-SUFFIX,pscp.tv,国外流量
