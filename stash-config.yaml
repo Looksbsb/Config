@@ -100,33 +100,29 @@ proxies:
 
 proxy-providers: 
   Airport:
-    type: http
     url: #机场订阅链接（clash格式）
-    path: ./Airport.yaml
     interval: 86400
-    health-check:
-      enable: true
-      interval: 3600
-      lazy: true
-      url: http://1.1.1.1/generate_204
 
 proxy-groups:
   - name: 最终代理
     type: select
-    use: 
-      - Airport
-    proxies: 
-      - DIRECT
+    benchmark-url: http://1.1.1.1/generate_204
+    benchmark-timeout: 3
+    interval: 3600
+    lazy: true
+    include-all: true
+    icon: https://raw.githubusercontent.com/Yuanxsxs/QtumultX/master/Icon/JiuMei-icon/quanX/BiliBili.png
 
   - name: 电报吹水
     type: select
-    use: 
-      - Airport
+    include-all: true
+    icon: https://raw.githubusercontent.com/Yuanxsxs/QtumultX/master/Icon/JiuMei-icon/quanX/Telegram.png
 
   - name: 国外流量
     type: select
-    use: 
-      - Airport
+    include-all: true
+    filter: 美國|美国|日本|US|JP
+    icon: https://raw.githubusercontent.com/Yuanxsxs/QtumultX/master/Icon/JiuMei-icon/quanX/Gwwz.png
 
 rules: 
   - DOMAIN-SUFFIX,app-measurement.com,REJECT,no-track
