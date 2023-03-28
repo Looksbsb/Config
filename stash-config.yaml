@@ -120,7 +120,7 @@ proxy-groups:
     include-all: true
     icon: https://raw.githubusercontent.com/Looksbsb/Private_stash_config/main/icon/Google.png
 
-  - name: 国外流量
+  - name: 社交服务
     type: select
     include-all: true
     filter: 美國|美国|日本|US|JP
@@ -1588,49 +1588,49 @@ rules:
   - DOMAIN-KEYWORD,google,谷歌服务
   - DOMAIN-KEYWORD,youtube,谷歌服务
   # 内容：Instagram
-  - DOMAIN-SUFFIX,cdninstagram.com,国外流量
-  - DOMAIN-SUFFIX,instagr.am,国外流量
-  - DOMAIN-SUFFIX,instagram.com,国外流量
-  - DOMAIN-KEYWORD,instagram,国外流量
+  - DOMAIN-SUFFIX,cdninstagram.com,社交服务
+  - DOMAIN-SUFFIX,instagr.am,社交服务
+  - DOMAIN-SUFFIX,instagram.com,社交服务
+  - DOMAIN-KEYWORD,instagram,社交服务
   # 内容：Facebook
-  - DOMAIN-KEYWORD,fbcdn,国外流量
-  - DOMAIN-SUFFIX,facebook.com,国外流量
-  - DOMAIN-SUFFIX,fb.com,国外流量
-  - DOMAIN-SUFFIX,fb.me,国外流量
-  - DOMAIN-SUFFIX,fbcdn.com,国外流量
-  - DOMAIN-SUFFIX,fbcdn.net,国外流量
-  - DOMAIN-KEYWORD,facebook,国外流量
+  - DOMAIN-KEYWORD,fbcdn,社交服务
+  - DOMAIN-SUFFIX,facebook.com,社交服务
+  - DOMAIN-SUFFIX,fb.com,社交服务
+  - DOMAIN-SUFFIX,fb.me,社交服务
+  - DOMAIN-SUFFIX,fbcdn.com,社交服务
+  - DOMAIN-SUFFIX,fbcdn.net,社交服务
+  - DOMAIN-KEYWORD,facebook,社交服务
   # 内容：Twitter
-  - DOMAIN-SUFFIX,periscope.tv,国外流量
-  - DOMAIN-SUFFIX,pscp.tv,国外流量
-  - DOMAIN-SUFFIX,t.co,国外流量
-  - DOMAIN-SUFFIX,twimg.co,国外流量
-  - DOMAIN-SUFFIX,twimg.com,国外流量
-  - DOMAIN-SUFFIX,twimg.org,国外流量
-  - DOMAIN-SUFFIX,twitpic.com,国外流量
-  - DOMAIN-SUFFIX,twitter.com,国外流量
-  - DOMAIN-SUFFIX,twitter.jp,国外流量
-  - DOMAIN-SUFFIX,vine.co,国外流量
-  - DOMAIN-KEYWORD,twitter,国外流量
+  - DOMAIN-SUFFIX,periscope.tv,社交服务
+  - DOMAIN-SUFFIX,pscp.tv,社交服务
+  - DOMAIN-SUFFIX,t.co,社交服务
+  - DOMAIN-SUFFIX,twimg.co,社交服务
+  - DOMAIN-SUFFIX,twimg.com,社交服务
+  - DOMAIN-SUFFIX,twimg.org,社交服务
+  - DOMAIN-SUFFIX,twitpic.com,社交服务
+  - DOMAIN-SUFFIX,twitter.com,社交服务
+  - DOMAIN-SUFFIX,twitter.jp,社交服务
+  - DOMAIN-SUFFIX,vine.co,社交服务
+  - DOMAIN-KEYWORD,twitter,社交服务
   # 内容：TikTok
-  - DOMAIN-SUFFIX,byteoversea.com,国外流量
-  - DOMAIN-SUFFIX,ibytedtos.com,国外流量
-  - DOMAIN-SUFFIX,ipstatp.com,国外流量
-  - DOMAIN-SUFFIX,muscdn.com,国外流量
-  - DOMAIN-SUFFIX,musical.ly,国外流量
-  - DOMAIN-SUFFIX,tik-tokapi.com,国外流量
-  - DOMAIN-SUFFIX,tiktok.com,国外流量
-  - DOMAIN-SUFFIX,tiktokcdn.com,国外流量
-  - DOMAIN-SUFFIX,tiktokv.com,国外流量
-  - DOMAIN-KEYWORD,tiktokcdn-,国外流量
+  - DOMAIN-SUFFIX,byteoversea.com,社交服务
+  - DOMAIN-SUFFIX,ibytedtos.com,社交服务
+  - DOMAIN-SUFFIX,ipstatp.com,社交服务
+  - DOMAIN-SUFFIX,muscdn.com,社交服务
+  - DOMAIN-SUFFIX,musical.ly,社交服务
+  - DOMAIN-SUFFIX,tik-tokapi.com,社交服务
+  - DOMAIN-SUFFIX,tiktok.com,社交服务
+  - DOMAIN-SUFFIX,tiktokcdn.com,社交服务
+  - DOMAIN-SUFFIX,tiktokv.com,社交服务
+  - DOMAIN-KEYWORD,tiktokcdn-,社交服务
   # 内容：Spotify
-  - DOMAIN-SUFFIX,pscdn.co,国外流量
-  - DOMAIN-SUFFIX,scdn.co,国外流量
-  - DOMAIN-SUFFIX,spoti.fi,国外流量
-  - DOMAIN-SUFFIX,spotify.com,国外流量
-  - DOMAIN-SUFFIX,spotifycdn.com,国外流量
-  - DOMAIN-SUFFIX,spotifycdn.net,国外流量
-  - DOMAIN-KEYWORD,-spotify-com,国外流量
-  - DOMAIN-KEYWORD,spotify.com,国外流量
+  - DOMAIN-SUFFIX,pscdn.co,社交服务
+  - DOMAIN-SUFFIX,scdn.co,社交服务
+  - DOMAIN-SUFFIX,spoti.fi,社交服务
+  - DOMAIN-SUFFIX,spotify.com,社交服务
+  - DOMAIN-SUFFIX,spotifycdn.com,社交服务
+  - DOMAIN-SUFFIX,spotifycdn.net,社交服务
+  - DOMAIN-KEYWORD,-spotify-com,社交服务
+  - DOMAIN-KEYWORD,spotify.com,社交服务
 #####################################
   - MATCH,最终代理
