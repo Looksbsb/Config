@@ -1552,33 +1552,6 @@ rules:
   - IP-CIDR6,2001:b28:f23f::/48,电报吹水,no-resolve
   - IP-CIDR6,2001:b28:f23d::/48,电报吹水,no-resolve
 #####################################
-  # 内容：Bing
-  - DOMAIN-SUFFIX,azure.com,必应服务
-  - DOMAIN-SUFFIX,azureedge.net,必应服务
-  - DOMAIN-SUFFIX,bing.com,必应服务
-  - DOMAIN-SUFFIX,bingapis.com,必应服务
-  - DOMAIN-SUFFIX,bluehatnights.com,必应服务
-  - DOMAIN-SUFFIX,clarity.ms,必应服务
-  - DOMAIN-SUFFIX,dictate.ms,必应服务
-  - DOMAIN-SUFFIX,ditu.live.com,必应服务
-  - DOMAIN-SUFFIX,flipwithsurface.com,必应服务
-  - DOMAIN-SUFFIX,masalladeloslimites.com,必应服务
-  - DOMAIN-SUFFIX,hotmail.com,必应服务
-  - DOMAIN-SUFFIX,microsoft.com,必应服务
-  - DOMAIN-SUFFIX,microsoft-falcon.io,必应服务
-  - DOMAIN-SUFFIX,msn.cn,必应服务
-  - DOMAIN-SUFFIX,msn.com,必应服务
-  - DOMAIN-SUFFIX,msunlimitedcloudsummit.com,必应服务
-  - DOMAIN-SUFFIX,outlook.com,必应服务
-  - DOMAIN-SUFFIX,outlookmobile.com,必应服务
-  - DOMAIN-SUFFIX,office365love.com,必应服务
-  - DOMAIN-SUFFIX,office365tw.com,必应服务
-  - DOMAIN-SUFFIX,onedrive.com,必应服务
-  - DOMAIN-SUFFIX,renovacionoffice.com,必应服务
-  - DOMAIN-SUFFIX,sprinklesapp.com,必应服务
-  - DOMAIN-SUFFIX,virtualearth.net,必应服务
-  - DOMAIN-KEYWORD,bing,必应服务
-  - DOMAIN-KEYWORD,microsoft,必应服务
   # 内容：Google、YouTube
   - DOMAIN-SUFFIX,1e100.net,谷歌服务
   - DOMAIN-SUFFIX,2mdn.net,谷歌服务
@@ -1619,6 +1592,15 @@ rules:
   - DOMAIN-KEYWORD,gmail,谷歌服务
   - DOMAIN-KEYWORD,google,谷歌服务
   - DOMAIN-KEYWORD,youtube,谷歌服务
+  # 内容：Spotify
+  - DOMAIN-SUFFIX,pscdn.co,谷歌服务
+  - DOMAIN-SUFFIX,scdn.co,谷歌服务
+  - DOMAIN-SUFFIX,spoti.fi,谷歌服务
+  - DOMAIN-SUFFIX,spotify.com,谷歌服务
+  - DOMAIN-SUFFIX,spotifycdn.com,谷歌服务
+  - DOMAIN-SUFFIX,spotifycdn.net,谷歌服务
+  - DOMAIN-KEYWORD,-spotify-com,谷歌服务
+  - DOMAIN-KEYWORD,spotify.com,谷歌服务
   # 内容：Instagram
   - DOMAIN-SUFFIX,cdninstagram.com,社交服务
   - DOMAIN-SUFFIX,instagr.am,社交服务
@@ -1655,14 +1637,32 @@ rules:
   - DOMAIN-SUFFIX,tiktokcdn.com,社交服务
   - DOMAIN-SUFFIX,tiktokv.com,社交服务
   - DOMAIN-KEYWORD,tiktokcdn-,社交服务
-  # 内容：Spotify
-  - DOMAIN-SUFFIX,pscdn.co,社交服务
-  - DOMAIN-SUFFIX,scdn.co,社交服务
-  - DOMAIN-SUFFIX,spoti.fi,社交服务
-  - DOMAIN-SUFFIX,spotify.com,社交服务
-  - DOMAIN-SUFFIX,spotifycdn.com,社交服务
-  - DOMAIN-SUFFIX,spotifycdn.net,社交服务
-  - DOMAIN-KEYWORD,-spotify-com,社交服务
-  - DOMAIN-KEYWORD,spotify.com,社交服务
+  # 内容：Bing
+  - DOMAIN-SUFFIX,azure.com,必应服务
+  - DOMAIN-SUFFIX,azureedge.net,必应服务
+  - DOMAIN-SUFFIX,bing.com,必应服务
+  - DOMAIN-SUFFIX,bingapis.com,必应服务
+  - DOMAIN-SUFFIX,bluehatnights.com,必应服务
+  - DOMAIN-SUFFIX,clarity.ms,必应服务
+  - DOMAIN-SUFFIX,dictate.ms,必应服务
+  - DOMAIN-SUFFIX,ditu.live.com,必应服务
+  - DOMAIN-SUFFIX,flipwithsurface.com,必应服务
+  - DOMAIN-SUFFIX,masalladeloslimites.com,必应服务
+  - DOMAIN-SUFFIX,hotmail.com,必应服务
+  - DOMAIN-SUFFIX,microsoft.com,必应服务
+  - DOMAIN-SUFFIX,microsoft-falcon.io,必应服务
+  - DOMAIN-SUFFIX,msn.cn,必应服务
+  - DOMAIN-SUFFIX,msn.com,必应服务
+  - DOMAIN-SUFFIX,msunlimitedcloudsummit.com,必应服务
+  - DOMAIN-SUFFIX,outlook.com,必应服务
+  - DOMAIN-SUFFIX,outlookmobile.com,必应服务
+  - DOMAIN-SUFFIX,office365love.com,必应服务
+  - DOMAIN-SUFFIX,office365tw.com,必应服务
+  - DOMAIN-SUFFIX,onedrive.com,必应服务
+  - DOMAIN-SUFFIX,renovacionoffice.com,必应服务
+  - DOMAIN-SUFFIX,sprinklesapp.com,必应服务
+  - DOMAIN-SUFFIX,virtualearth.net,必应服务
+  - DOMAIN-KEYWORD,bing,必应服务
+  - DOMAIN-KEYWORD,microsoft,必应服务
 #####################################
   - MATCH,最终代理
