@@ -1639,6 +1639,8 @@ rules:
   - DOMAIN-SUFFIX,tiktokv.com,社交服务
   - DOMAIN-KEYWORD,tiktokcdn-,社交服务
   # 内容：Bing
+  - DOMAIN-SUFFIX,appcenter.ms,必应服务
+  - DOMAIN-SUFFIX,akamaized.net,必应服务
   - DOMAIN-SUFFIX,azure.com,必应服务
   - DOMAIN-SUFFIX,azureedge.net,必应服务
   - DOMAIN-SUFFIX,bing.com,必应服务
@@ -1654,6 +1656,7 @@ rules:
   - DOMAIN-SUFFIX,microsoft-falcon.io,必应服务
   - DOMAIN-SUFFIX,msn.cn,必应服务
   - DOMAIN-SUFFIX,msn.com,必应服务
+  - DOMAIN-SUFFIX,msecnd.net,必应服务
   - DOMAIN-SUFFIX,msunlimitedcloudsummit.com,必应服务
   - DOMAIN-SUFFIX,outlook.com,必应服务
   - DOMAIN-SUFFIX,outlookmobile.com,必应服务
@@ -1662,6 +1665,7 @@ rules:
   - DOMAIN-SUFFIX,onedrive.com,必应服务
   - DOMAIN-SUFFIX,renovacionoffice.com,必应服务
   - DOMAIN-SUFFIX,sprinklesapp.com,必应服务
+  - DOMAIN-SUFFIX,scorecardresearch.com,必应服务
   - DOMAIN-SUFFIX,virtualearth.net,必应服务
   - DOMAIN-KEYWORD,bing,必应服务
   - DOMAIN-KEYWORD,microsoft,必应服务
