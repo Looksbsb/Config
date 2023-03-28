@@ -1640,7 +1640,6 @@ rules:
   - DOMAIN-KEYWORD,tiktokcdn-,社交服务
   # 内容：Bing
   - DOMAIN-SUFFIX,appcenter.ms,必应服务
-  - DOMAIN-SUFFIX,akamaized.net,必应服务
   - DOMAIN-SUFFIX,azure.com,必应服务
   - DOMAIN-SUFFIX,azureedge.net,必应服务
   - DOMAIN-SUFFIX,bing.com,必应服务
