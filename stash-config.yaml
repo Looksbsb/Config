@@ -120,16 +120,17 @@ proxy-groups:
     include-all: true
     icon: https://raw.githubusercontent.com/Looksbsb/Private_stash_config/main/icon/Google.png
 
-  - name: 必应服务
-    type: select
-    include-all: true
-    icon: https://raw.githubusercontent.com/Looksbsb/Private_stash_config/main/icon/Google.png
-
   - name: 社交服务
     type: select
     include-all: true
     filter: 美國|美国|日本|US|JP
     icon: https://raw.githubusercontent.com/Looksbsb/Private_stash_config/main/icon/World.png
+
+  - name: 必应服务
+    type: select
+    include-all: true
+    icon: https://raw.githubusercontent.com/Looksbsb/Private_stash_config/main/icon/Cloud.png
+
 
 rules: 
   - DOMAIN-SUFFIX,app-measurement.com,REJECT,no-track
