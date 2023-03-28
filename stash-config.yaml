@@ -115,6 +115,11 @@ proxy-groups:
     include-all: true
     icon: https://raw.githubusercontent.com/Looksbsb/Private_stash_config/main/icon/Telegram.png
 
+  - name: 谷歌服务
+    type: select
+    include-all: true
+    icon: https://raw.githubusercontent.com/Looksbsb/Private_stash_config/main/icon/Google.png
+
   - name: 国外流量
     type: select
     include-all: true
@@ -1543,45 +1548,45 @@ rules:
   - IP-CIDR6,2001:b28:f23d::/48,电报吹水,no-resolve
 #####################################
   # 内容：Google、YouTube
-  - DOMAIN-SUFFIX,1e100.net,国外流量
-  - DOMAIN-SUFFIX,2mdn.net,国外流量
-  - DOMAIN-SUFFIX,g.co,国外流量
-  - DOMAIN-SUFFIX,ggpht.com,国外流量
-  - DOMAIN-SUFFIX,goo.gl,国外流量
-  - DOMAIN-SUFFIX,googleapis.cn,国外流量
-  - DOMAIN-SUFFIX,googleapis.com,国外流量
-  - DOMAIN-SUFFIX,gstatic.cn,国外流量
-  - DOMAIN-SUFFIX,gstatic.com,国外流量
-  - DOMAIN-SUFFIX,gvt0.com,国外流量
-  - DOMAIN-SUFFIX,gvt1.com,国外流量
-  - DOMAIN-SUFFIX,gvt2.com,国外流量
-  - DOMAIN-SUFFIX,gvt3.com,国外流量
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,国外流量
-  - DOMAIN-SUFFIX,pki.goog,国外流量
-  - DOMAIN-SUFFIX,doubleclick.net,国外流量
-  - DOMAIN-SUFFIX,ampproject.org,国外流量
-  - DOMAIN-SUFFIX,google.com,国外流量
-  - DOMAIN-SUFFIX,googleapis-cn.com,国外流量
-  - DOMAIN-SUFFIX,googletagmanager.com,国外流量
-  - DOMAIN-SUFFIX,googleusercontent.com,国外流量
-  - DOMAIN-SUFFIX,google-analytics.com,国外流量
-  - DOMAIN-SUFFIX,googleoptimize.com,国外流量
-  - DOMAIN-SUFFIX,googleadservices.com,国外流量
-  - DOMAIN-SUFFIX,youtu.be,国外流量
-  - DOMAIN-SUFFIX,youtube-nocookie.com,国外流量
-  - DOMAIN-SUFFIX,youtube.com,国外流量
-  - DOMAIN-SUFFIX,yt.be,国外流量
-  - DOMAIN-SUFFIX,ytimg.com,国外流量
-  - DOMAIN,yt3.ggpht.com,国外流量
-  - DOMAIN-SUFFIX,googlevideo.com,国外流量
-  - DOMAIN-SUFFIX,withyoutube.com,国外流量
-  - DOMAIN-SUFFIX,youtubeeducation.com,国外流量
-  - DOMAIN-SUFFIX,youtubegaming.com,国外流量
-  - DOMAIN-SUFFIX,youtubekids.com,国外流量
-  - DOMAIN,music.youtube.com,国外流量
-  - DOMAIN-KEYWORD,gmail,国外流量
-  - DOMAIN-KEYWORD,google,国外流量
-  - DOMAIN-KEYWORD,youtube,国外流量
+  - DOMAIN-SUFFIX,1e100.net,谷歌服务
+  - DOMAIN-SUFFIX,2mdn.net,谷歌服务
+  - DOMAIN-SUFFIX,g.co,谷歌服务
+  - DOMAIN-SUFFIX,ggpht.com,谷歌服务
+  - DOMAIN-SUFFIX,goo.gl,谷歌服务
+  - DOMAIN-SUFFIX,googleapis.cn,谷歌服务
+  - DOMAIN-SUFFIX,googleapis.com,谷歌服务
+  - DOMAIN-SUFFIX,gstatic.cn,谷歌服务
+  - DOMAIN-SUFFIX,gstatic.com,谷歌服务
+  - DOMAIN-SUFFIX,gvt0.com,谷歌服务
+  - DOMAIN-SUFFIX,gvt1.com,谷歌服务
+  - DOMAIN-SUFFIX,gvt2.com,谷歌服务
+  - DOMAIN-SUFFIX,gvt3.com,谷歌服务
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,谷歌服务
+  - DOMAIN-SUFFIX,pki.goog,谷歌服务
+  - DOMAIN-SUFFIX,doubleclick.net,谷歌服务
+  - DOMAIN-SUFFIX,ampproject.org,谷歌服务
+  - DOMAIN-SUFFIX,google.com,谷歌服务
+  - DOMAIN-SUFFIX,googleapis-cn.com,谷歌服务
+  - DOMAIN-SUFFIX,googletagmanager.com,谷歌服务
+  - DOMAIN-SUFFIX,googleusercontent.com,谷歌服务
+  - DOMAIN-SUFFIX,google-analytics.com,谷歌服务
+  - DOMAIN-SUFFIX,googleoptimize.com,谷歌服务
+  - DOMAIN-SUFFIX,googleadservices.com,谷歌服务
+  - DOMAIN-SUFFIX,youtu.be,谷歌服务
+  - DOMAIN-SUFFIX,youtube-nocookie.com,谷歌服务
+  - DOMAIN-SUFFIX,youtube.com,谷歌服务
+  - DOMAIN-SUFFIX,yt.be,谷歌服务
+  - DOMAIN-SUFFIX,ytimg.com,谷歌服务
+  - DOMAIN,yt3.ggpht.com,谷歌服务
+  - DOMAIN-SUFFIX,googlevideo.com,谷歌服务
+  - DOMAIN-SUFFIX,withyoutube.com,谷歌服务
+  - DOMAIN-SUFFIX,youtubeeducation.com,谷歌服务
+  - DOMAIN-SUFFIX,youtubegaming.com,谷歌服务
+  - DOMAIN-SUFFIX,youtubekids.com,谷歌服务
+  - DOMAIN,music.youtube.com,谷歌服务
+  - DOMAIN-KEYWORD,gmail,谷歌服务
+  - DOMAIN-KEYWORD,google,谷歌服务
+  - DOMAIN-KEYWORD,youtube,谷歌服务
   # 内容：Instagram
   - DOMAIN-SUFFIX,cdninstagram.com,国外流量
   - DOMAIN-SUFFIX,instagr.am,国外流量
