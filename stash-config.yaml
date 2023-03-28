@@ -120,6 +120,11 @@ proxy-groups:
     include-all: true
     icon: https://raw.githubusercontent.com/Looksbsb/Private_stash_config/main/icon/Google.png
 
+  - name: 必应服务
+    type: select
+    include-all: true
+    icon: https://raw.githubusercontent.com/Looksbsb/Private_stash_config/main/icon/Google.png
+
   - name: 社交服务
     type: select
     include-all: true
@@ -1547,6 +1552,33 @@ rules:
   - IP-CIDR6,2001:b28:f23f::/48,电报吹水,no-resolve
   - IP-CIDR6,2001:b28:f23d::/48,电报吹水,no-resolve
 #####################################
+  # 内容：Bing
+  - DOMAIN-SUFFIX,azure.com,必应服务
+  - DOMAIN-SUFFIX,azureedge.net,必应服务
+  - DOMAIN-SUFFIX,bing.com,必应服务
+  - DOMAIN-SUFFIX,bingapis.com,必应服务
+  - DOMAIN-SUFFIX,bluehatnights.com,必应服务
+  - DOMAIN-SUFFIX,clarity.ms,必应服务
+  - DOMAIN-SUFFIX,dictate.ms,必应服务
+  - DOMAIN-SUFFIX,ditu.live.com,必应服务
+  - DOMAIN-SUFFIX,flipwithsurface.com,必应服务
+  - DOMAIN-SUFFIX,masalladeloslimites.com,必应服务
+  - DOMAIN-SUFFIX,hotmail.com,必应服务
+  - DOMAIN-SUFFIX,microsoft.com,必应服务
+  - DOMAIN-SUFFIX,microsoft-falcon.io,必应服务
+  - DOMAIN-SUFFIX,msn.cn,必应服务
+  - DOMAIN-SUFFIX,msn.com,必应服务
+  - DOMAIN-SUFFIX,msunlimitedcloudsummit.com,必应服务
+  - DOMAIN-SUFFIX,outlook.com,必应服务
+  - DOMAIN-SUFFIX,outlookmobile.com,必应服务
+  - DOMAIN-SUFFIX,office365love.com,必应服务
+  - DOMAIN-SUFFIX,office365tw.com,必应服务
+  - DOMAIN-SUFFIX,onedrive.com,必应服务
+  - DOMAIN-SUFFIX,renovacionoffice.com,必应服务
+  - DOMAIN-SUFFIX,sprinklesapp.com,必应服务
+  - DOMAIN-SUFFIX,virtualearth.net,必应服务
+  - DOMAIN-KEYWORD,bing,必应服务
+  - DOMAIN-KEYWORD,microsoft,必应服务
   # 内容：Google、YouTube
   - DOMAIN-SUFFIX,1e100.net,谷歌服务
   - DOMAIN-SUFFIX,2mdn.net,谷歌服务
