@@ -701,16 +701,6 @@ rules:
   - DOMAIN-SUFFIX,me.com,DIRECT
   - DOMAIN-SUFFIX,mzstatic.com,DIRECT
   - DOMAIN-KEYWORD,testflight,DIRECT
-  - IP-CIDR,17.0.0.0/8,DIRECT,no-resolve
-  - IP-CIDR,63.92.224.0/19,DIRECT,no-resolve
-  - IP-CIDR,65.199.22.0/23,DIRECT,no-resolve
-  - IP-CIDR,139.178.128.0/18,DIRECT,no-resolve
-  - IP-CIDR,144.178.0.0/19,DIRECT,no-resolve
-  - IP-CIDR,144.178.36.0/22,DIRECT,no-resolve
-  - IP-CIDR,144.178.48.0/20,DIRECT,no-resolve
-  - IP-CIDR,192.35.50.0/24,DIRECT,no-resolve
-  - IP-CIDR,198.183.17.0/24,DIRECT,no-resolve
-  - IP-CIDR,205.180.175.0/24,DIRECT,no-resolve
 #####################################
   # 内容：国内ASN
   - IP-ASN,56041,DIRECT,no-resolve
@@ -1543,15 +1533,14 @@ rules:
   - DOMAIN-SUFFIX,telegram.org,电报吹水
   - DOMAIN-SUFFIX,telesco.pe,电报吹水
   - DOMAIN-KEYWORD,telegram,电报吹水
-  - IP-CIDR,149.154.160.0/20,电报吹水,no-resolve
-  - IP-CIDR,91.108.0.0/16,电报吹水,no-resolve
+  - DOMAIN-KEYWORD,telegram,电报吹水
   - IP-CIDR,109.239.140.0/24,电报吹水,no-resolve
-  - IP-CIDR,5.28.195.163/32,电报吹水,no-resolve
-  - IP-CIDR,5.28.195.205/32,电报吹水,no-resolve
-  - IP-CIDR,5.28.195.7/32,电报吹水,no-resolve
-  - IP-CIDR6,2001:67c:4e8::/48,电报吹水,no-resolve
-  - IP-CIDR6,2001:b28:f23f::/48,电报吹水,no-resolve
-  - IP-CIDR6,2001:b28:f23d::/48,电报吹水,no-resolve
+  - IP-CIDR,5.28.192.0/18,电报吹水,no-resolve
+  - IP-ASN,44907,电报吹水,no-resolve
+  - IP-ASN,62014,电报吹水,no-resolve
+  - IP-ASN,62041,电报吹水,no-resolve
+  - IP-ASN,59930,电报吹水,no-resolve
+  - IP-ASN,211157,电报吹水,no-resolve
 #####################################
   # 内容：Google、YouTube
   - DOMAIN-SUFFIX,1e100.net,谷歌服务
