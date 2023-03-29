@@ -108,28 +108,28 @@ proxy-groups:
     interval: 3600
     lazy: true
     include-all: true
-    icon: https://raw.githubusercontent.com/Looksbsb/Private_stash_config/main/icon/Moon.png
+    icon: https://raw.githubusercontent.com/Looksbsb/Stash_private_config/main/icon/Blau_icon/Dolphin.png
 
   - name: 电报吹水
     type: select
     include-all: true
-    icon: https://raw.githubusercontent.com/Looksbsb/Private_stash_config/main/icon/Telegram.png
+    icon: https://raw.githubusercontent.com/Looksbsb/Stash_private_config/main/icon/Blau_icon/Telegram.png
 
   - name: 谷歌服务
     type: select
     include-all: true
-    icon: https://raw.githubusercontent.com/Looksbsb/Private_stash_config/main/icon/Google.png
+    icon: https://raw.githubusercontent.com/Looksbsb/Stash_private_config/main/icon/Blau_icon/Google+.png
 
   - name: 社交服务
     type: select
     include-all: true
     filter: 美國|美国|日本|US|JP
-    icon: https://raw.githubusercontent.com/Looksbsb/Private_stash_config/main/icon/World.png
+    icon: https://raw.githubusercontent.com/Looksbsb/Stash_private_config/main/icon/Blau_icon/Messenger.png
 
   - name: 必应服务
     type: select
     include-all: true
-    icon: https://raw.githubusercontent.com/Looksbsb/Private_stash_config/main/icon/Cloud.png
+    icon: https://raw.githubusercontent.com/Looksbsb/Stash_private_config/main/icon/Blau_icon/Bing.png
 
 
 rules: 
