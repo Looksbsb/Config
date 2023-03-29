@@ -113,7 +113,7 @@ proxy-groups:
   - name: 电报吹水
     type: select
     include-all: true
-    icon: https://raw.githubusercontent.com/Looksbsb/Stash_private_config/main/icon/Blau_icon/Telegram.png
+    icon: https://github.com/Looksbsb/Stash_private_config/raw/main/icon/Telegram.png
 
   - name: 谷歌服务
     type: select
