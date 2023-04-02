@@ -664,6 +664,7 @@ rules:
   - DOMAIN-SUFFIX,didiglobal.com,DIRECT
   - DOMAIN-SUFFIX,udache.com,DIRECT
   - DOMAIN-SUFFIX,zdmimg.com,DIRECT
+  - DOMAIN-SUFFIX,mob.com,DIRECT
   # 内容：中国常用域名关键词
   - DOMAIN-KEYWORD,360buy,DIRECT
   - DOMAIN-KEYWORD,alicdn,DIRECT
