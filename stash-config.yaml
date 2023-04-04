@@ -214,7 +214,6 @@ rules:
   - DOMAIN-SUFFIX,weixinbridge.com,DIRECT
   - DOMAIN-SUFFIX,weixinsxy.com,DIRECT
   - DOMAIN-SUFFIX,shujupie.com,DIRECT
-  - DOMAIN-KEYWORD,43.156.222.,DIRECT
   # 内容：网易
   - DOMAIN-SUFFIX,126.com,DIRECT
   - DOMAIN-SUFFIX,126.net,DIRECT
@@ -1591,21 +1590,20 @@ rules:
   - DOMAIN-SUFFIX,spotify.com,谷歌服务
   - DOMAIN-SUFFIX,spotifycdn.com,谷歌服务
   - DOMAIN-SUFFIX,spotifycdn.net,谷歌服务
-  - DOMAIN-KEYWORD,-spotify-com,谷歌服务
-  - DOMAIN-KEYWORD,spotify.com,谷歌服务
+  - DOMAIN-KEYWORD,spotify,谷歌服务
   # 内容：Instagram
   - DOMAIN-SUFFIX,cdninstagram.com,社交服务
   - DOMAIN-SUFFIX,instagr.am,社交服务
   - DOMAIN-SUFFIX,instagram.com,社交服务
   - DOMAIN-KEYWORD,instagram,社交服务
   # 内容：Facebook
-  - DOMAIN-KEYWORD,fbcdn,社交服务
   - DOMAIN-SUFFIX,facebook.com,社交服务
   - DOMAIN-SUFFIX,fb.com,社交服务
   - DOMAIN-SUFFIX,fb.me,社交服务
   - DOMAIN-SUFFIX,fbcdn.com,社交服务
   - DOMAIN-SUFFIX,fbcdn.net,社交服务
   - DOMAIN-KEYWORD,facebook,社交服务
+  - DOMAIN-KEYWORD,fbcdn,社交服务
   # 内容：Twitter
   - DOMAIN-SUFFIX,periscope.tv,社交服务
   - DOMAIN-SUFFIX,pscp.tv,社交服务
