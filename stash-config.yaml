@@ -165,6 +165,7 @@ rules:
   - RULE-SET,Spotify,谷歌服务
   - RULE-SET,Apple,DIRECT
   - RULE-SET,Mainland,DIRECT
+  - IP-CIDR,157.240.0.0/17,社交服务,no-resolve
   - GEOIP,CN,DIRECT,no-resolve
 #####################################
   - MATCH,最终代理
