@@ -132,7 +132,7 @@ rule-providers:
     url: https://github.com/Looksbsb/Rules/raw/main/stash/Telegram.txt
     interval: 604800
   Google:
-    behavior: domain-text
+    format: text
     url: https://github.com/Looksbsb/Rules/raw/main/stash/Google.txt
     interval: 604800
   Instagram:
